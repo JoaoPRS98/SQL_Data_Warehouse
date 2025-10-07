@@ -31,9 +31,12 @@ This data warehouse is organized into **three main layers** — Bronze, Silver, 
 
 | 🔍 Property | 💡 Description |
 |-------------|----------------|
+| **Definition** | Raw & unprocessed data as-is from sources |
+| **Objective** | Traceability & debugging |
 | **Object Type** | Tables |
 | **ETL Process** | Extract & Load *(Batch Processing, Full Load, Truncate & Insert)* |
 | **Data Model** | None *(as-is)* |
+| **Target Audience** | Data Engineers |
 
 ### 🥈 Silver Layer — Cleaned & Standardized Data
 
@@ -42,9 +45,12 @@ This data warehouse is organized into **three main layers** — Bronze, Silver, 
 
 | 🔍 Property | 💡 Description |
 |-------------|----------------|
+| **Definition** | Clean & standardized data |
+| **Objective** | Prepare data for analysis |
 | **Object Type** | Tables |
-| **ETL Process** | Extract, Load *(Batch Processing, Full Load, Truncate & Insert)*, Transformations *(Data Cleansing, Data Standardization, Data Normalization, Derived Columns, Data Enrichment)* |
+| **ETL Process** | Extract, Load *(Batch Processing, Full Load, Truncate & Insert)*, Transformations *(Data Cleasing, Data Standardization, Data Normalization, Derived Columns, Data Enrichment)* |
 | **Data Model** | None *(as-is)* |
+| **Target Audience** | Data Engineers & Data Analysts |
 
 ### 🥇 Gold Layer — Business-Ready Data
 
@@ -53,10 +59,14 @@ This data warehouse is organized into **three main layers** — Bronze, Silver, 
 
 | 🔍 Property | 💡 Description |
 |-------------|----------------|
+| **Definition** | Business-ready data |
+| **Objective** | Prepare data for reporting & business analysis |
 | **Object Type** | Views |
 | **ETL Process** | Extract & Transform *(Data Integrations, Aggregations, Business Logic)* |
 | **Data Model** | Star Schema, Flat Table, Aggregated Table |
+| **Target Audience** | Data Analysts & Business Users |
 
+The warehouse is structured in **three layers**, each with a specific purpose in preparing data for analysis and reporting.
 Data flows sequentially from sources → ETL processes → Bronze → Silver → Gold → consumption layer, enabling scalable analytics and reliable decision-making.
 
 ---
