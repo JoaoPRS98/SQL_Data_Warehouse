@@ -1,4 +1,3 @@
-<pre> ```sql
 /**********************************************************************************************
 * Project: SQL Data Warehouse
 * Script: DB_init.sql
@@ -37,4 +36,3 @@ GO
 
 CREATE SCHEMA gold;
 GO
-``` </pre>
