@@ -1,6 +1,6 @@
 /**********************************************************************************************
 * Project: SQL Data Warehouse
-* Script: DB_init.sql
+* Script: db_init.sql
 * Author: Joao Santos
 * Description:
 *   This script initializes the SQL Server environment for the Data Warehouse project.
