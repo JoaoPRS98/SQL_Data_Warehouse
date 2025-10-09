@@ -1,3 +1,4 @@
+<pre> ```sql
 /**********************************************************************************************
 * Project: SQL Data Warehouse
 * Script: DB_init.sql
@@ -17,7 +18,7 @@
 *   Run this script once to set up the database structure before loading any data.
 **********************************************************************************************/
 
-```sql
+
 USE master;
 GO
 
@@ -36,4 +37,4 @@ GO
 
 CREATE SCHEMA gold;
 GO
-```
+``` </pre>
