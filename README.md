@@ -117,3 +117,11 @@ Develop a **modern data warehouse** using **SQL Server** to consolidate sales da
 - **Integration:** Combine both sources into a **single, user-friendly data model** designed for analytical queries.  
 - **Scope:** Focus on the **latest dataset only**; historization of data is **not required**.  
 - **Documentation:** Provide **clear documentation** of the data model to support both **business stakeholders** and **analytics teams**.
+
+---
+
+## 🧠 Inspiration
+
+This project was inspired by the YouTube video  
+🎥 **"SQL Data Warehouse from Scratch | Full Hands-On Data Engineering Project"**  
+by **Baraa** — whose content provided a great foundation for practicing end-to-end Data Engineering concepts.
